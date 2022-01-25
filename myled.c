@@ -1,3 +1,9 @@
+
+
+/*  COPYING   GPL v3.0
+    Copyright © 2021 RyuichiUeda, KeitoKunishima All rights reserved.  */
+
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
