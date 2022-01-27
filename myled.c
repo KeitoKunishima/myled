@@ -97,7 +97,7 @@ static int __init init_mod(void)
 
 	device_create(cls, NULL, dev, NULL, "myled%d", MINOR(dev));
 
-	gpio_base = ioremap_nocache(0xfe200000, 0xA0);
+	gpio_base = ioremap(0xfe200000, 0xA0);
 
 	const u32 led = 25;
 	const u32 index = led/10;
